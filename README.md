@@ -97,6 +97,12 @@ The agent is a Python-based service that runs continuously, processing user clus
 
 - **Database Integration**: Fetches user profiles and creates matches via the server API endpoints.
 
+### Agent Architecture
+
+![Agent Architecture](agent-architecture.png)
+
+*Diagram showing the flow of the matchmaking agent system, including clustering, coordinator agent, user agents, and interactions with the server API.*
+
 ### Tech Stack
 
 - **Python 3.x**
